@@ -1,0 +1,124 @@
+/* Common class Start */
+*{
+    font-family: 'Inter';
+    padding: 0;
+    margin: 0;
+}
+.image_{
+    width: 243px;
+    height: 194px;
+}
+.InputClass{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 5px;
+   
+}
+.inputbox{
+    width: 95px;
+    height: 32px;
+    border: 0;
+    outline: 0;
+    text-align: center;
+}
+.btn_size{
+    width: 70%;
+}
+/* Common  Class End */
+
+
+/* Header Start */
+
+.headerContainer{
+    background-color:rgba(16, 144, 216, 0.1);
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+
+/* Header end */
+
+
+/* Main Start */
+.Main_Container{
+    /* background-color: green; */
+    display: flex;
+}
+
+/* Calculation Container start */
+.Calculation_Container{
+   /* background-color: tomato; */
+   width: 70%;
+   padding: 25px;
+}
+.calculate_Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: cornflowerblue; */
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 8px;
+    width: 300px;
+    margin: 10px;
+}
+/*Calculation Container End */
+
+/* Result Container Start */
+.Result_Container{
+    /* background-color: teal; */
+    width: 30%;
+    overflow: auto;
+}
+.Result_Show{
+    background-color: yellow;
+    overflow: auto;
+}
+.area_title{
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+.covert_btn{
+    font-size: 12px;
+}
+/* Result Container End */
+
+/* Main End */
+
+
+
+/* Resposive Start */
+@media only screen and (max-width:576px) {
+    /* Main Start */
+   .Main_Container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Calculation Container start */
+    .calculate_Content{
+        margin-top: 15px;
+    }
+    /* Calculation Container End */
+
+
+     /* Result Container Start */
+    .Result_Container{
+       width: 100%;
+    }
+   /* Result Container End */
+
+
+  /* Main End */
+
+
+ 
+
+}
+/* Resposive End */

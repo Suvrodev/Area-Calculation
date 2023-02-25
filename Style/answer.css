@@ -1,0 +1,46 @@
+/* Common CSS start */
+*{
+    padding: 0;
+    margin: 0;
+    background-color: skyblue;
+    overflow: hidden;
+}
+
+/* Common CSS end */
+
+/* Header Start */
+.Title{
+    background-color: teal;
+    text-align: center;
+    padding: 7px 5px;
+    color: white;
+    margin: 10px;
+    border-radius: 7px;
+    box-shadow: 15px 15px 25px black;
+}
+
+/* Header end */
+
+
+/* Main start */
+.main{
+    padding: 15px;
+}
+.Answer_Container{
+    background-color: tomato;
+    padding: 15px;
+    width: 750px;
+    margin: 0 auto;
+    height: 550px;
+    overflow: auto;
+}
+
+/* Main end */
+
+/* Media Query start */
+@media only screen and (max-width:576px) {
+    .Answer_Container{
+        width: 100%;
+    }
+}
+/* Media Query end */
